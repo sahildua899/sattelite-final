@@ -1,0 +1,134 @@
+@media only screen and (max-width:600px) {
+
+    /* //////////////////////////////Header///////////////////////////////////////////////// */
+
+    /* //////////////////////////////Top Menu Start///////////////////////////////////////// */
+    .top-menu-container {
+        width: 100%;
+        flex-direction: column;
+    }
+    .horizontal-line {
+        margin-top: 10px;
+    }
+    .menu-section {
+        width: 100%;
+        text-align: center;
+        line-height:20px;
+    }
+    ul li {
+        display: inline;
+        margin-left: 15px;
+        font-size: 13px;
+        font-weight: 600;
+        text-align: center;
+    }
+    .social-section {
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        margin-top: 10px;
+        margin-right: 15px;
+    }
+    .social-section:nth-child(4) {
+        margin-right: 15px;
+    }
+
+    /* ////////////////////////////////Top Menu End ////////////////////////////////////////////// */
+
+     /* Logo Section */
+     .container-clock {
+        display: none;
+    }
+    .logo-menu-container {
+        width: 95%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .row {
+        height: 30px;
+        
+    }
+    .logo {
+        width: 60%;
+        margin-top: -10px;
+        padding-top: -10px;
+        align-items: center;
+        justify-content: center;
+    }
+    .lightDark {
+        width: 40%;
+        margin-top: 2px;
+    }
+    .skew-title {
+        font-size: 5px;
+      }
+      .skew-title span {
+        width: 14px;
+        height: 8px;
+        font-size: 12px;
+      }
+      .skew-title span:after,
+      .skew-title span:before {
+        width: 13px;
+        /* height: 12px; */
+        font-weight: 200;
+        margin-top: 0px;
+      }
+      /* Weather & Seach Section */
+      .weather-search-section {
+        width: 95%;
+        flex-direction: column;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 10px;
+      }
+      .search-section {
+        margin-top: 10px;
+        width: 100%;
+      }
+      .weather-section {
+        width: 100%;
+        display: flex;
+      }
+      .weather-btn {
+        width: 100%;
+        height: 50px;
+        padding: 10px;
+      }
+      .play-button {
+        align-items: center;
+        justify-content: flex-end;
+        width: 40%;
+      }
+      /* Carousel */
+      .carousel {
+        height: 40%;
+      }
+      /* .flip-box-section {
+        height: 40%;
+      } */
+      .banner-slider-container {
+        width: 95%;
+        margin-left: auto;
+        margin-right: auto;
+        height: 50px;
+      }
+      .banner-slider-container img {
+        width: 100%;
+        left: 0;
+      }
+      .two-column-bottom {
+        flex-direction: column;
+      }
+      .column-one-left {
+        width: 100%;
+      }
+      .fashion-container .card h5 {
+        display: none;
+      }
+      .two-column-bottom .column-two-right {
+        width: 100%;
+      }
+
+
+}
