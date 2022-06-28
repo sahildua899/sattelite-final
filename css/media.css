@@ -1,5 +1,7 @@
-@media only screen and (max-width:600px) {
-
+@media only screen and (max-width:420px) {
+    body{
+        width: 98%;
+    }
     /* //////////////////////////////Header///////////////////////////////////////////////// */
 
     /* //////////////////////////////Top Menu Start///////////////////////////////////////// */
@@ -92,21 +94,24 @@
       }
       .weather-btn {
         width: 100%;
-        height: 50px;
         padding: 10px;
       }
       .play-button {
         align-items: center;
         justify-content: flex-end;
         width: 40%;
+        margin-left: 10%;
+      }
+      .clip video {
+        width: 80%;
       }
       /* Carousel */
       .carousel {
-        height: 40%;
+        height: 100%;
       }
-      /* .flip-box-section {
-        height: 40%;
-      } */
+      .flip-box-section {
+        height: 180px;
+      }
       .banner-slider-container {
         width: 95%;
         margin-left: auto;
@@ -129,6 +134,29 @@
       .two-column-bottom .column-two-right {
         width: 100%;
       }
-
-
+      /* Body Section Starts */
+      .hover-content-section {
+        width: 95%;
+      }
+      .wrap {
+        width: 100%;
+      }
+      .tile {
+        width: 100%;
+        height: 220px;
+      }
+      .two-tiles {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+      }
+      .tile .text p {
+        display: none;
+      }
+      /* Banner */
+      .banner-slider-container {
+        height: 37px;
+      }
+      
 }
