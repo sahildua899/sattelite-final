@@ -170,9 +170,12 @@
         width: 100%;
       }
       .big-blog-slider-section {
-        width: 90%;
+        width: 80%;
       }
       .blog-slider__button {
         width: 50%;
+      }
+      .blog-slider {
+        width: 95%;
       }
 }
