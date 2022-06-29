@@ -159,4 +159,20 @@
         height: 37px;
       }
       
+      /* 2 Columns Bottom */
+      .two-col-main-div {
+        flex-direction: column;
+      }
+      .col-one-left {
+        width: 100%;
+      }
+      .col-two-right {
+        width: 100%;
+      }
+      .big-blog-slider-section {
+        width: 90%;
+      }
+      .blog-slider__button {
+        width: 50%;
+      }
 }
