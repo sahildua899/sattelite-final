@@ -181,4 +181,41 @@
         width: 95%;
         margin-left: -13px;
       }
+      .fashion-container .card h2 {
+        display: none
+      }
+      .fashion-container .card h5 {
+        display: none;
+      }
+      .two-column-bottom .column-one-left {
+        width: 100%;
+      }
+      .two-column-bottom .column-two-right {
+        width: 100%;
+        margin-left: 0px;
+        margin-top: 10px;
+      }
+      /* Newsletter */
+     #textWrapper {
+      top:68%
+     }
+     #placeholder {
+      top: -75px;
+      font-size: 12px;
+      left: -105px;
+     }
+     #svgWrapper input {
+      top: -75px;
+     }
+     #svgWrapper button {
+      top: -87px;
+      left: 18px;
+     }
+     #disclaimer {
+      top: -47px;
+     }
+     #success {
+      top: -120px;
+     }
+
 }

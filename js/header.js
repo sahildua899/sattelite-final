@@ -1,3 +1,24 @@
+
+$('.auto-grid').owlCarousel({
+  loop:true,
+  autoplay:true,
+  autoplayTimeout:2000,
+  autoplayHoverPause:true,
+  responsive:{
+      0:{
+          items:1
+      },
+      600:{
+          items:4
+      },
+      1000:{
+          items:4
+      }
+  }
+})
+
+
+
 try {
     setInterval(()=>{
 
@@ -69,6 +90,11 @@ const horizontalLine = document.querySelectorAll('.horizontal-line');
 const weatherPara = document.querySelector('.Weatherpara');
 const refreshWeather = document.querySelector('.refreshweather');
 const Menus = document.querySelectorAll('.item');
+const MostPopular = document.querySelector('.most-popular-section');
+const mostPopularLines = document.querySelectorAll('.most-popular-lines');
+const articleSidebar = document.querySelectorAll('.article-sidebar-details');
+const newsletterHeading = document.querySelector('.newsletter-heading');
+const footer = document.querySelector('.footer');
 
 
 
@@ -89,6 +115,15 @@ finalbulb.onclick = function() {
 function lightDarkmode (lighton) {
     if(lighton === true) {
         document.body.style.background = "var(--background-blue)";
+        MostPopular.style.color ="var(--background-black)";
+        newsletterHeading.style.color = "var(--background-black)";
+        footer.style.background = "var(--background-black)";
+        footer.style.color = "var(--background-blue)";
+
+        MostPopular.addEventListener('mouseover', function(){
+          MostPopular.style.color = "#fff"
+        })
+        
 
         // Time Color
 
@@ -106,9 +141,23 @@ function lightDarkmode (lighton) {
         Menus[i].style.boxShadow = "0 0 5px #144c6e";
     }
 
+    // Most Popular
+      for(i=0;i<mostPopularLines.length;i++ ){
+        mostPopularLines[i].style.background = "var(--background-black)";
+      }
+      // Article Sidebar
+      for(i=0;i<articleSidebar.length; i++){
+        articleSidebar[i].style.color = "var(--background-black)";
+      }
+
   
     }else {
         document.body.style.background = "var(--background-black)";
+        MostPopular.style.color = "#fff";
+        newsletterHeading.style.color = "var(--background-blue)";
+        footer.style.background = "var(--background-blue)";
+        footer.style.color = "var(--background-black)";
+        
 
         // Time Color
 
@@ -126,6 +175,15 @@ function lightDarkmode (lighton) {
 
         for(i=0; i<Menus.length; i++){
             Menus[i].style.boxShadow = "0 0 5px #fff";
+        }
+        // Most Popular
+        for(i=0;i<mostPopularLines.length;i++){
+          mostPopularLines[i].style.background = "#fff";
+          console.log(mostPopularLines[i])
+        }
+        // Article Sidebar
+        for(i=0;i<articleSidebar.length; i++){
+          articleSidebar[i].style.color = "var(--background-blue)";
         }
        
     }
@@ -327,4 +385,6 @@ function pop (e) {
     document.querySelectorAll('img').forEach(img => img.addEventListener('click', pop));
     document.querySelectorAll('li').forEach(li => li.addEventListener('click', pop));
   }
+  
+
   
