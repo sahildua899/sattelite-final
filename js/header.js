@@ -386,5 +386,6 @@ function pop (e) {
     document.querySelectorAll('li').forEach(li => li.addEventListener('click', pop));
   }
   
+// AOS
 
   

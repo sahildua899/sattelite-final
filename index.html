@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://kit.fontawesome.com/bf5ba39767.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
 
     <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet"> 
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet"> 
@@ -152,6 +153,9 @@
 
 <div class="body-section">
 <!-- //////////////////////////////////////////////////Body Section Starts Here ///////////////////////////////////////////////////// -->
+<div class="category-button">
+  <button class="custom-btn btn-12"><span>Click!</span><span>Fashion Shows</span></button>
+</div>
     <div class="flip-box-section">
         <!-- Testing -->
         <div class="carousel">
@@ -230,11 +234,11 @@
         <hr class="horizontal-line">
     <!-- /////////////////////////////////// Hover Content Section /////////////////////////////////////////////////////////////////-->
     <div class="category-button">
-        <button class="custom-btn btn-12"><span>Click!</span><span>Read More</span></button>
+        <button class="custom-btn btn-12"><span>Click!</span><span>Fashion Style</span></button>
     </div>
     <div class="hover-content-section">
        
-        <div class="wrap">
+        <div class="wrap" data-aos="fade-right" data-aos-duration="1000">
             <div class="two-tiles">
             <div class="tile"> 
               <img src='https://images.unsplash.com/photo-1464054313797-e27fb58e90a9?dpr=1&auto=format&crop=entropy&fit=crop&w=1500&h=996&q=80'/>
@@ -300,7 +304,7 @@
     <hr class="horizontal-line after-tile-section">
      <!-- /////////////////////////////////// Hover Content Section Ends /////////////////////////////////////////////////////////////////-->
      <!-- /////////////////////////////////// Banner Section /////////////////////////////////////////////////////////////////-->
-     <div class="banner-slider-container">
+     <div class="banner-slider-container" data-aos="fade-left" data-aos-duration="1000">
         
         <div id="scroll-banner">
             <img src=
@@ -326,9 +330,9 @@
 
     <!-- /////////////////////////////////// 3d Flip Section Start ////////////////////////////////////////////////////////////// -->
     <div class="category-button">
-        <button class="custom-btn btn-12"><span>Click!</span><span>Read More</span></button>
+        <button class="custom-btn btn-12"><span>Click!</span><span>Fashion Look</span></button>
     </div>
-    <div class="d3-flip-slider">
+    <div class="d3-flip-slider"data-aos="fade-right" data-aos-duration="1000">
         <div class="wrapper">
             <div class="cols">
                       <div class="col" ontouchstart="this.classList.toggle('hover');">
@@ -400,9 +404,9 @@
     
     <!-- ////////////////////////////////////////// 2 Column Section Start ////////////////////////////////////////////// -->
     <div class="category-button">
-        <button class="custom-btn btn-12"><span>Click!</span><span>Read More</span></button>
+        <button class="custom-btn btn-12"><span>Click!</span><span>Fashion Designer</span></button>
     </div>
-    <div class="two-col-main-div">
+    <div class="two-col-main-div" data-aos="fade-left" data-aos-duration="1000">
         
         <div class="col-one-left">
             <div class="column-content">
@@ -459,7 +463,7 @@
         </div>
       </main>
       <!-- Col 3 -->
-      <main class="page-content">
+      <!-- <main class="page-content">
         <div class="card-col-2">
           <div class="content-col-2">
             <h2 class="title">Mountain View</h2>
@@ -474,7 +478,7 @@
             <button class="btn">View Trips</button>
           </div>
         </div>
-      </main>
+      </main> -->
         </div>
     </div>
     <hr class="horizontal-line">
@@ -483,9 +487,9 @@
 
     <!-- ////////////////////////////////////////// 3D slider Start ////////////////////////////////////////////// -->
     <div class="category-button">
-        <button class="custom-btn btn-12"><span>Click!</span><span>Read More</span></button>
+        <button class="custom-btn btn-12"><span>Click!</span><span>What's New</span></button>
     </div>
-    <div class="big-blog-slider-section">
+    <div class="big-blog-slider-section" data-aos="fade-right" data-aos-duration="1000">
         <div class="blog-slider">
             <div class="blog-slider__wrp swiper-wrapper">
               <div class="blog-slider__item swiper-slide">
@@ -533,10 +537,10 @@
 
     <!-- ////////////////////////////////////////// 2 Column Bottom Start ///////////////////////////////////////////// -->
     <div class="category-button">
-        <button class="custom-btn btn-12"><span>Click!</span><span>Read More</span></button>
+        <button class="custom-btn btn-12"><span>Click!</span><span>Celebrity</span></button>
     </div>
     <div class="two-column-bottom">
-        <div class="column-one-left">
+        <div class="column-one-left" data-aos="fade-right" data-aos-duration="1000">
             <div class="fashion-container">
                 <!-- Card 1 -->
                 <div class="card">
@@ -788,7 +792,7 @@
                
             </div>
             <!-- COlumn 2 Right -->
-            <div class="column-two-right">
+            <div class="column-two-right" data-aos="fade-left" data-aos-duration="1000">
               <div class="column-details">
                   <div class="most-popular">
                   <a href="#" class="most-popular-section">
@@ -1054,9 +1058,9 @@
     <!-- ////////////////////////////////////////// 2 Column Bottom Ends /////////////////////////////////////////// -->
     <!-- //////////////////////////////////////////// Slider Owl Carousel Start ///////////////////////////////////////// -->
     <div class="category-button">
-        <button class="custom-btn btn-12"><span>Click!</span><span>Read More</span></button>
+        <button class="custom-btn btn-12"><span>Click!</span><span>Latest News</span></button>
     </div>
-    <div class="team">
+    <div class="team" data-aos="fade-left" data-aos-duration="1000">
         <ul class="auto-grid owl-carousel" role="list">
           <li>
             <a href="https://swop.link/cool" target=_blank" class="profile">
@@ -1152,7 +1156,15 @@
 <div class="footer-space"></div>
 </div>
 <div class="footer">
-    <p>Created With Love By Sahil Dua ❤</p>
+    <div class="footer1">
+      <h2 class="footer-heading">About Us</h2>
+    </div>
+    <div class="footer2">
+      <h2 class="footer-heading">Recent Posts</h2>
+    </div>
+    <div class="footer3">
+      <h2 class="footer-heading">Popular Categories</h2>
+    </div>
 </div>
 
 
@@ -1176,5 +1188,9 @@
     <script src="./js/main.js"></script>
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
 </body>
 </html>
